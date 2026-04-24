@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: fit-content;
+}
+
+header {
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+
+#header-section {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+#search-input {
+    width: 600px;
+    height: 26px;
+    background-color: rgb(216, 216, 216);
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+#logo {
+    position: relative;
+    align-self: self-start;
+}
+
+#header-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+#filters {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 4rem;
+}
+
+#filters-container-text {
+    display: flex;
+    gap: 1rem
+}
+
+#designs-section {
+    display: grid;;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    background-color: aqua;
+    padding: 1rem;
+}
+
+.design-card {
+    
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+}
