@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background-color: #fdfaf6;
+    color: #3e2723;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #3e2723;
+    color: #d7ccc8;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #8d6e63;
+}
+
+header span { 
+    color: #ffa726; 
+    font-weight: bold; 
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    color: #d7ccc8;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover { 
+    color: #ffa726; 
+}
+
+main {
+    flex: 1;
+    padding: 40px 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.servicos-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.servico-item {
+    background-color: #efebe9;
+    padding: 30px;
+    border: 1px solid #d7ccc8;
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    font-style: italic;
+    border-radius: 4px;
+}
+
+.container-fotos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.foto-box {
+    flex: 1;
+    min-width: 300px;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.foto-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+aside {
+    background-color: #8d6e63;
+    color: white;
+    margin: 0 8% 40px;
+    padding: 25px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.badge-sustentavel {
+    background-color: #4caf50;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+footer {
+    background-color: #212121;
+    color: #9e9e9e;
+    padding: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+}
